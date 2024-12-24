@@ -35,6 +35,7 @@ def clear_terminal():
         os.system('cls')
     else:
         os.system('clear')  
+        
 df = pd.read_json('people_data.json')
 
 
